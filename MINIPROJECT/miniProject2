@@ -1,0 +1,18 @@
+# 2.Let's assume you are planning to use your python skills to build an App for Mobile.
+# You decide to host your application on servers running in the cloud. you pick a hosting provider that charges $0.51 per hour. you will launch your services using one server and want to know how much it will cost to operate per day, per week, per month.
+# Write a python program that displays the answers to the following questions:
+# How much does it cost to operate one server per day?
+# How much does it cost to operate one server per week?
+# How much does it cost to operate one server per month?
+# How much days can I operate one server with $918? Do all this
+rate_per_hour = 0.51
+per_day = rate_per_hour * 24
+per_week = per_day * 7
+per_month = per_day * 30
+budget = 918
+days_operated = budget / per_day
+
+print(f"Cost per day: ${per_day:.2f}")
+print(f"Cost per week: ${per_week:.2f}")
+print(f"Cost per month: ${per_month:.2f}")
+print(f"You can operate one server for {int(days_operated)} days with $918")
