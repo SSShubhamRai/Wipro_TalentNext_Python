@@ -1,0 +1,4 @@
+# Write a program to append a new item to the end of the list
+my_list = [1, 2, 3, 4, 5]
+my_list.append(6)
+print("List after appending 6:", my_list)

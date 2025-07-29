@@ -1,0 +1,10 @@
+# Write a program to create a list of 5 integers and display the list items. Access individual elements through index.
+my_list = [10, 20, 30, 40, 50]
+print("Complete List:", my_list)
+
+# Accessing elements using index
+print("First element:", my_list[0])
+print("Second element:", my_list[1])
+print("Third element:", my_list[2])
+print("Fourth element:", my_list[3])
+print("Fifth element:", my_list[4])
